@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.everettprogram.yei" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="BackupWebStorage" value="cloud" />
+    <preference name="DisallowOverscroll" value="false" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="FadeSplashScreen" value="true" />
+    <preference name="FadeSplashScreenDuration" value=".25" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="ShowSplashScreenSpinner" value="true" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="TopActivityIndicator" value="gray" />
+    <preference name="GapBetweenPages" value="0" />
+    <preference name="PageLength" value="0" />
+    <preference name="PaginationBreakingMode" value="page" />
+    <preference name="PaginationMode" value="unpaginated" />
+    <feature name="LocalStorage">
+        <param name="ios-package" value="CDVLocalStorage" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="ios-package" value="CDVInAppBrowser" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="ios-package" value="CDVSplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <icon gap:platform="ios" height="60" src="res/icon/ios/icon-60.png" width="60" />
+    <icon gap:platform="ios" height="120" src="res/icon/ios/icon-60@2x.png" width="120" />
+    <icon gap:platform="ios" height="76" src="res/icon/ios/icon-76.png" width="76" />
+    <icon gap:platform="ios" height="152" src="res/icon/ios/icon-76@2x.png" width="152" />
+    <gap:splash gap:platform="ios" height="480" src="platforms/ios/www/res/screen/ios/Default.png" width="320" />
+    <gap:splash gap:platform="ios" height="960" src="platforms/ios/www/res/screen/ios/Default@2x.png" width="640" />
+    <gap:splash gap:platform="ios" height="1136" src="platforms/ios/www/res/screen/ios/Default-568h@2x.png" width="640" />
+    <gap:splash gap:platform="ios" height="1024" src="platforms/ios/www/res/screen/ios/Default-Portrait.png" width="768" />
+    <gap:splash gap:platform="ios" height="768" src="platforms/ios/www/res/screen/ios/Default-Landscape.png" width="1024" />
+    <gap:splash gap:platform="ios" height="2048" src="platforms/ios/www/res/screen/ios/Default-Portrait@2x.png" width="1536" />
+    <gap:splash gap:platform="ios" height="1536" src="platforms/ios/www/res/screen/ios/Default-Landscape@2x.png" width="2048" />
+    <gap:splash src="platforms/ios/www/splash.png" />
+    <name>YEI College Mentor</name>
+    <description>
+        The 2014 version of the Youth Empowerment Institute College Mentor App
+    </description>
+    <author email="info@everettprogram.org" href="http://everettprogram.org">
+        Everett Program Info
+    </author>
+    <preference name="phonegap-version" value="3.5.0" />
+    <preference name="orientation" value="default" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="auto-hide-splash-screen" value="true" />
+    <preference name="disable-cursor" value="false" />
+    <preference name="android-minSdkVersion" value="7" />
+    <preference name="android-installLocation" value="auto" />
+    <gap:plugin name="org.apache.cordova.battery-status" />
+    <gap:plugin name="org.apache.cordova.camera" />
+    <gap:plugin name="org.apache.cordova.media-capture" />
+    <gap:plugin name="org.apache.cordova.console" />
+    <gap:plugin name="org.apache.cordova.contacts" />
+    <gap:plugin name="org.apache.cordova.device" />
+    <gap:plugin name="org.apache.cordova.device-motion" />
+    <gap:plugin name="org.apache.cordova.device-orientation" />
+    <gap:plugin name="org.apache.cordova.dialogs" />
+    <gap:plugin name="org.apache.cordova.file" />
+    <gap:plugin name="org.apache.cordova.file-transfer" />
+    <gap:plugin name="org.apache.cordova.geolocation" />
+    <gap:plugin name="org.apache.cordova.globalization" />
+    <gap:plugin name="org.apache.cordova.inappbrowser" />
+    <gap:plugin name="org.apache.cordova.media" />
+    <gap:plugin name="org.apache.cordova.network-information" />
+    <gap:plugin name="org.apache.cordova.splashscreen" />
+    <gap:plugin name="org.apache.cordova.vibration" />
+    <gap:plugin name="org.li8.inappbrowser" version="0.1" />
+    <icon src="icon.png" />
+    <access origin="*" />
+</widget>
