@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>B4E98361-3348-4632-BA10-49537FEE209A</string>
+	<string>F755C54F-0681-4125-BF77-0D0C48BB7C97</string>
 	<key>IDESourceControlProjectName</key>
 	<string>YEI College Mentor</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>6FA3646A-3E78-4619-AF30-E91D895ADB6E</key>
-		<string>https://github.com/YouthEmpowermentInstitute/yeiapp2014-cordova.git</string>
+		<key>53FD0B65-81BF-48ED-8068-2CCFDAF9EDE7</key>
+		<string>https://github.com/YouthEmpowermentInstitute/yeiapp2014-release.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>platforms/ios/YEI College Mentor.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>6FA3646A-3E78-4619-AF30-E91D895ADB6E</key>
+		<key>53FD0B65-81BF-48ED-8068-2CCFDAF9EDE7</key>
 		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/YouthEmpowermentInstitute/yeiapp2014-cordova.git</string>
+	<string>https://github.com/YouthEmpowermentInstitute/yeiapp2014-release.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>6FA3646A-3E78-4619-AF30-E91D895ADB6E</string>
+	<string>53FD0B65-81BF-48ED-8068-2CCFDAF9EDE7</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>6FA3646A-3E78-4619-AF30-E91D895ADB6E</string>
+			<string>53FD0B65-81BF-48ED-8068-2CCFDAF9EDE7</string>
 			<key>IDESourceControlWCCName</key>
-			<string>yeiapp2014-cordova</string>
+			<string>yeiapp2014-release</string>
 		</dict>
 	</array>
 </dict>
